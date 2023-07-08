@@ -1,3 +1,23 @@
+fast "< [4 2] 2 [1 2] [4 1] >"
+$ sound "bass1:2 sn:2*<2 4>" # silence
+
+stack [
+ s "bd sn" 
+ ,
+s "~ arpy*8" 
+# up (scale "mixolydian" "0 1 2 3 4 5 ")
+] 
+
+fast "2 4"
+$ s "bd sn*2" # silence
+
+
+s "[cp [perc perc]] [808 808 [808 808]]" # silence
+
+
+
+
+
 stack [
 whenmod 8 6 (fast 4)
 $ whenmod 4 2 (fast 2)
